@@ -1,0 +1,97 @@
+*{
+  margin:0;
+
+}
+
+header{
+  border-bottom: 3px solid black;
+  height: 70px;
+  background: #eee;
+}
+header h1{
+  font-family: arial;
+  font-size: 1.75em;
+  margin: 17.5px auto;
+  margin: px auto;
+  float: left;
+
+}
+nav{
+  float: right;
+}
+ul{
+  margin: 0;
+  padding: 0;
+
+}
+nav ul li{
+
+
+  padding: 25px;
+  list-style: none;
+}
+nav ul li a{
+
+  font-family: arial;
+  padding: 26px;
+
+}
+nav ul li a:hover{
+  padding: 27 px;
+background: #bbb;
+color: white;
+}
+
+.option {
+background: black;
+color:white;
+border-bottom: 3px solid black;
+}
+.option  li{
+display: inline-block;
+padding: 20px;
+font-family: arial;
+
+}
+.option li:hover{
+  background: white;
+  color:black;
+}
+
+
+section table{
+  width: 20%;
+  margin: 10px auto;
+  background: #eef;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+}
+section table th{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  padding: 20px;
+  background: #ddd;
+  color: #000;
+  font-family: arial;
+
+}
+section table td{
+  font-family: arial;
+
+  padding: 10px;
+}
+section table td input[type='text'] ,section table td input[type='password'] {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #aaa;
+  font-size: 19px;
+
+}
+section table td input[type='submit']{
+  padding: 10px 80px;
+  background: #ccc;
+  border: none;
+
+  border-radius: 3px;
+}
